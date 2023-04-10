@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '6194697888:AAEKDja94ZMeCbqFkCfvL1Nc4r0YoFxyZvw';
-const clientUrl = 'https://majestic-baklava-c1fd29.netlify.app/'
+const token = '';
+const clientUrl = ''
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
